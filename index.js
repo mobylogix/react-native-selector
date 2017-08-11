@@ -64,8 +64,12 @@ export default ReactNativeSelector extends Component {
   renderRow(data) {
     const {navigate} = this.props;
 
+    if (!data) {
+      return null;
+    }
+
     return (
-      <TouchableHighlight onPress={() => navigate(data.screen)}>
+      <TouchableHighlight onPress={() => data.screen ? navigate(data.screen) : this.setModalVisible(false)}>
         <Text>{data.title}</Text>
       </TouchableHighlight>
     );
