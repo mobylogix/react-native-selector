@@ -13,6 +13,7 @@
   ],
   "author": "Arslan Nasir",
   "license": "ISC",
+  "git": "https://github.com/mobylogix/react-native-selector.git",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
