@@ -1,19 +1,30 @@
 {
   "name": "@mobylogix/react-native-selector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Selector allows you to display possible options for the user. It uses ActionSheet for IOS and modal for Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mobylogix/react-native-selector.git"
   },
   "keywords": [
     "react-native",
     "react-native-selector",
     "seletor"
   ],
-  "author": "Arslan Nasir",
+  "author": {
+    "name": "Arslan Nasir",
+    "email": "arslan@mobylogix.com",
+    "url": "www.mobylogix.com"
+  },
   "license": "ISC",
-  "git": "https://github.com/mobylogix/react-native-selector.git",
+  "bugs": {
+    "url": "https://github.com/mobylogix/react-native-selector/issues"
+  },
+  "homepage": "https://github.com/mobylogix/react-native-selector#readme",
   "dependencies": {
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
