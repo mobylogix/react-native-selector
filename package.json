@@ -1,6 +1,6 @@
 {
   "name": "react-native-selector",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Selector allows you to display possible options for the user. It uses ActionSheet for IOS and modal for Android",
   "main": "index.js",
   "scripts": {
